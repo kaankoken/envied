@@ -12,7 +12,7 @@ dev_dependencies:
   envied_generator:
     git:
       url: https://github.com/kaankoken/envied.git
-      ref: main
+      ref: master-local
       path: packages/envied_generator
   lints: ^2.0.0
   test: ^1.16.0
@@ -20,5 +20,5 @@ dependencies:
   envied:
     git:
       url: https://github.com/kaankoken/envied.git
-      ref: main
+      ref: master-local
       path: packages/envied

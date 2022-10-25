@@ -12,7 +12,7 @@ dependencies:
   envied:
     git:
       url: https://github.com/kaankoken/envied.git
-      ref: main
+      ref: master-local
       path: packages/envied
   build: ^2.3.0
   source_gen: ^1.2.2
