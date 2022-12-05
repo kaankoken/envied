@@ -3,12 +3,7 @@ targets:
     builders:
       envied_generator|envied:
         enabled: True
-        generate_for:
-          - .env
-          - dev.env
-          - test.env
-          - uat.env
-          - prod.env
+
 builders:
   envied:
     import: "package:envied_generator/builder.dart"
@@ -19,3 +14,9 @@ builders:
     build_to: cache
     auto_apply: dependents
     applies_builders: ["source_gen|combining_builder"]
+    generate_for:
+      - .env
+      - dev.env
+      - test.env
+      - uat.env
+      - prod.env
