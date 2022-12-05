@@ -4,8 +4,8 @@ targets:
       envied_generator|envied:
         enabled: True
         generate_for:
-          - **.env
-          - **.env.**
+          - *.env
+          - *.env.*
 builders:
   envied:
     import: "package:envied_generator/builder.dart"
