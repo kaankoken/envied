@@ -1,3 +1,4 @@
+import 'package:build/build.dart';
 import 'package:envied_generator/envied_generator.dart';
 import 'package:source_gen_test/source_gen_test.dart';
 
@@ -13,6 +14,6 @@ Future<void> main() async {
 
   testAnnotatedElements(
     reader,
-    EnviedGenerator(),
+    EnviedGenerator(BuilderOptions.forRoot),
   );
 }

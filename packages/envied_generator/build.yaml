@@ -3,7 +3,8 @@ targets:
     builders:
       envied_generator|envied:
         enabled: True
-
+        options:
+          env_file: .env
 builders:
   envied:
     import: "package:envied_generator/builder.dart"
